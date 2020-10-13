@@ -9,6 +9,4 @@ console.log(plugin.imc);
 
 
 console.log(plugin.quadrado(5));
-
-
 console.log(moment().format());

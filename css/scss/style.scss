@@ -1,0 +1,13 @@
+@import 'header';
+
+
+@mixin sombra(){
+    box-shadow: 4px 4px 4px rgba(0,0,0,.1);
+    border:1px solid red;
+    padding:10px;
+    background-color: blue;
+}
+
+h1{
+    @include sombra();
+}
